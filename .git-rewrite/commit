@@ -1,0 +1,17 @@
+tree 21c18bf48c6ef61edea29dae2e7f0ff53fd8a33e
+parent 76189e9528306c60fcf895b5045ac1937a823076
+author Aviram Hassan <aviram@metalbear.co> 1665664112 +0000
+committer Aviram Hassan <aviram@metalbear.co> 1665664112 +0000
+
+refactor pod api (#565)
+
+### Added
+- Skip istio/linkerd-proxy/init container when mirroring a pod without a specific container name. Closes #556 
+- Add "linkerd.io/inject": "disabled" annotation to pod created by mirrord to avoid linkerd auto inject.
+- mirrord-layer: support `-target deployment/deployment_name/container/container_name` flag to run on a specific container. 
+
+## Changed
+- mirrord-layer: refactored `pod_api.rs` to be more maintainble.
+- Use kube config namespace by default. Closes #557 
+
+Co-authored-by: Aviram Hassan <aviramyhassan@gmail.com>
