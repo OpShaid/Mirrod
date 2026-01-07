@@ -4,11 +4,7 @@
 
 </div>
 
-[![Community Slack](https://img.shields.io/badge/Join-e5f7f7?logo=slack&label=Community%20Slack)](https://metalbear.co/slack)
-[![Github CI](https://github.com/metalbear-co/mirrord/actions/workflows/ci.yaml/badge.svg)](https://github.com/metalbear-co/mirrord/actions/workflows/ci.yaml)
-[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/metalbear-co/mirrord/blob/main/LICENSE)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/metalbear-co/mirrord)](https://github.com/metalbear-co/mirrord/releases)
-[![Twitter Follow](https://img.shields.io/twitter/follow/metalbearco?style=social)](https://twitter.com/metalbearco)
+
 
 [mirrord lets developers run local processes in the context of their Kubernetes environment](https://metalbear.co/mirrord/).
 It’s meant to provide the benefits of running your service on a cloud environment (e.g. staging) without actually
@@ -156,24 +152,7 @@ MIRRORD_AGENT_DISABLED_CAPABILITIES=CAP_NET_RAW,CAP_SYS_PTRACE mirrord exec node
   <img src="./images/how_it_works.svg" alt="How It Works"/>
 </p>
 
-## FAQ
 
-Our FAQ is available [here](https://metalbear.co/mirrord/docs/faq/general/).
-If you have a question that's not on there, feel free to ask in our [Discussions](https://github.com/metalbear-co/mirrord/discussions)
-or on [Slack](https://metalbear.co/slack).
-
-## Contributing
-
-Contributions are very welcome. Start by checking out our [open issues](https://github.com/metalbear-co/mirrord/issues), and by going through our [contributing guide](CONTRIBUTING.md).
-We're available on [Slack](https://metalbear.co/slack) for any questions.
-
-## Help and Community
-
-Join our [Slack](https://metalbear.co/slack) for questions, support and fun.
-
-We always appreciate hearing how mirrord has made a difference for our users.  
-Check out our [ADOPTERS.md](./ADOPTERS.md) to see how others are using mirrord —  
-and [open a pull request](https://github.com/metalbear-co/mirrord/pulls) to add your organization if you’d like to share how mirrord has been useful to you.
 
 ## KubeCon Atlanta Raffle
 
